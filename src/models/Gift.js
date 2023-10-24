@@ -3,7 +3,7 @@ export class Gift {
         this.url = data.url
         this.tag = data.tag
         this.id = data.id
-        this.opened = data.opened || true
+        this.opened = data.opened
         this.createdAt = data.createdAt
         this.updatedAt = data.updatedAt
         this.creatorId = data.creatorId
